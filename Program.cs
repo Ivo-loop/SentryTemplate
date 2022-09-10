@@ -5,6 +5,7 @@ builder.WebHost.UseSentry("https://87853bc1473e41babe572c64fbb91d9e@o1381534.ing
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
